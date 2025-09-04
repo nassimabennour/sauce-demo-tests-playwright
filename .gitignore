@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Playwright outputs
+playwright-report/
+test-results/
+videos/
+screenshots/
+
+# BDD output (fichiers générés par playwright-bdd)
+tests-bdd/
+
+# IDE / OS files
+.DS_Store
+.vscode/
+*.log
+
+# TypeScript build (si jamais tu compiles plus tard)
+dist/

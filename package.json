@@ -1,0 +1,29 @@
+{
+  "name": "sauce-demo-tests-playwright",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bdd": "playwright-bdd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nassimabennour/sauce-demo-tests-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nassimabennour/sauce-demo-tests-playwright/issues"
+  },
+  "homepage": "https://github.com/nassimabennour/sauce-demo-tests-playwright#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.55.0",
+    "playwright-bdd": "^8.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
